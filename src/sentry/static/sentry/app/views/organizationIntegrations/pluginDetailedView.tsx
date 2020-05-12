@@ -11,7 +11,7 @@ import withOrganization from 'app/utils/withOrganization';
 
 import AbstractIntegrationDetailedView from './abstractIntegrationDetailedView';
 import InstalledPlugin from './installedPlugin';
-import RequestIntegrationButton from "./requestIntegrationButton";
+import RequestIntegrationButton from './requestIntegrationButton';
 
 type State = {
   plugins: PluginWithProjectList[];
